@@ -1,0 +1,134 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+.one{
+    background-color: rgb(193, 36, 125);
+    padding:10px;
+    color:black
+}
+.container{
+    padding:10px
+}
+
+.book-container{
+    padding:15px;
+    width:25%;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    margin: 30px;
+    display:inline-block;
+    vertical-align: top;
+
+}
+.book-container h2{
+    color:rgb(219, 33, 111)
+}
+.book-container h5{
+    margin:10px;
+    text-align: right;
+}
+.book-container button{
+    background-color: black;
+    color:rgb(215, 61, 131);
+    border-radius: 10PX;
+    border-color: azure;
+    padding: 10PX;
+    
+}
+.add-button{
+    padding:20px;
+    border-radius:100%;
+    text-align: right;
+    font-size: larger;
+    background-color: rgb(131, 12, 87);
+    border:none;
+    position:fixed;
+    bottom:30px;
+    right:30px;
+}
+.pop-overlay{
+    background-color:black;
+    opacity: 0.8;
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:1;
+    display:none;
+}
+.inside{
+    background-color:rgb(182, 42, 128);
+    padding-inline:100px;
+    width: 150px;
+    color:white;
+    height: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+    border-radius: 10%;
+    position:absolute;
+    top:20%;
+    left:50%;
+    z-index:2;
+    display:none;
+
+}
+.title{
+    color: black;
+    text-align: center;
+
+}
+.inside input{
+    background: transparent;
+    border:none;
+
+    width: 100% ;
+    
+    margin:5px;
+    padding:5px;
+    font-size:20px;
+    border-bottom: solid black ;
+}
+.inside textarea {
+    background: transparent;
+  
+
+    width: 100% ;
+    
+    margin:5px;
+    padding:5px;
+    font-size:20px;
+    border: solid black ;
+}
+.inside input::placeholder
+{
+    color:black;
+}
+inside textarea::placeholder
+{
+    color:black;
+}
+.inside button{
+    background :black;
+    color:white;
+    width:100%;
+    padding:5px;
+    margin-bottom: 5px;
+    border-radius: 10%;
+    
+
+}
+.inside input:focus{
+    outline:none;
+
+}
+.inside textarea:focus{
+    outline:none;
+}
+.book-container:hover {
+    background-color: rgb(139, 27, 105);
+    cursor: pointer;
+}

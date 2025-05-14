@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booksky</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1 class="one"> Booksky</h1>
+    <div class="container"> 
+        <div class="book-container">
+            <h2><pre>RICH DAD POOR DAD<pre></pre></h2>
+
+           <H5 >  <right> -ROBERT</right></H5><br>
+    <p> Many people think of homes or cars as assets, but they're liabilities. Investment and rental properties that generate income are the real assets. Overall, the Rich Dad, Poor Dad book is about getting a financial education and making wise financial decisions to acquire wealth and escape the rat race.</P><br>
+    <button onclick="deletebook(event)"> DELETE</button>
+ </div>
+  </div>
+  <div class="popup-overlay" ></div>
+  <div class="inside" >
+    <h1 class="title"><pre> ADD BOOK <pre></pre></h1>
+    <form >
+        <input type="text" placeholder="Bookholder" id="bookholder-input"><br>
+      <br>  <input type="text" placeholder="Author" id="author"><br>
+       <br> <textarea placeholder="Short description" id="description">  </textarea>
+        <button id="add-popup"> ADD</button>
+        <button  id="cancel-popup"> CANCEL</button>
+    </form>
+  </div>
+
+  <button   class="add-button"> +</button>
+  <script src="script.js"></script>
+</body>
+</html>
